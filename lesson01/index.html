@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BA</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="#" method="POST">
+			<label for="first_name">First Name</label>
+			<input type="text" required="required" name="first_name" id="first_name" />
+			
+			<label for="last_name">Last Name</label>
+			<input type="text" minlength="3" name="last_name" id="last_name" />
+			
+			<br>
+			<label for="phone">Phone</label>
+			<input type="phone" name="phone" id="phone"/>
+			
+			<label for="number">Number</label>
+			<input type="number" disabled name="number" id="number"/>
+
+			<label for="date"></label>
+			<input type="date" readonly hidden name="date" id="date" />
+
+			<br>
+			<br>
+			<label for="message">Message</label>
+			<textarea name="message" id="message" cols="100" rows="10"></textarea>
+
+			<input type="radio" checked name="gender">male	
+			<input type="radio" name="gender">female
+
+			<br>
+			<br>
+			<input type="checkbox" name="checkbox" value="1">1
+			<input type="checkbox" name="checkbox" value="2">2
+			<input type="checkbox" name="checkbox" value="red">red
+
+			<input type="submit" value="push the button">
+			<input type="button" value="reset">
+
+			<select name="city" multiple>
+				<option value="0">Kiev</option>
+				<option value="1">Poltava</option>
+				<option value="2">Kharkov</option>
+			</select>
+
+			<input type="hidden"></input>
+		</form>
+	</body>
+</html>

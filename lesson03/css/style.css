@@ -1,0 +1,145 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*
+	margin:10px 10 px 200px 15px;
+	margin: 10px 50px 30px; боковые по 50px
+	margin: 10px 20px; верх\низ по 10 и боковые по 20
+	*/
+}
+body {
+	min-width: 600px;
+}
+header {
+	/*
+	background-image: url();
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100% | 1000px | cover | contain;
+	*/
+	background: url('../images/back.jpg') #FFF no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;	
+}
+header .inner {
+	padding: 100px 0px;
+
+}
+.inner p {
+	padding: 0 30%;
+	padding-bottom: 40px;
+	line-height: 1.4;
+}
+.menu {
+	background: rgba(0,0,0,0.5); /* цвет фона + прозрачность*/
+}
+.menu ul {
+	list-style: none; /* убирает точки со списка*/
+}
+.menu ul li,.menu ul li a,header h1 {
+	display: inline-block;
+}
+.menu ul li a {
+	color: #FFF;
+	text-decoration: none; /*underline*/
+	text-transform: uppercase; /*lowercase*/
+	font-size: 16px;
+	/*border: dotted #f20;*/
+	padding: 20px 10px;
+}
+.menu ul:hover li a {
+ 	color: rgba(255,255,255,0);
+  	text-shadow: 0 0 3px rgba(255,255,255,0.5);
+}
+.menu ul li a:hover {
+ 	color: #fff;
+	text-shadow: none;
+}
+header h1 {
+	background-color: #81B536;
+	padding: 5px 7px;
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+.first_colum {	
+	float: left;
+}
+.first_colum,.second_colum {
+	width: 40%;
+	padding: 100px 100px;
+}
+.second_colum p {
+	margin-bottom: 40px;
+}
+.second_colum a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #81B536;
+	font-size: 16px;
+	border: solid;
+	padding: 20px 10px;
+}
+.second_colum a:hover {
+	background-color: #81B536;
+	color: #fff;
+}
+.colums h2{
+	padding-bottom: 20px;
+}
+footer {
+	padding: 50px 0;
+	background-color: #81B536;
+	text-align: center;
+	color: #FFF; 
+}
+footer p {
+	padding: 0 25%;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+footer a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 16px;
+	border: solid;
+	padding: 20px 10px;
+}
+footer a:hover {
+	background-color: #fff;
+	color: #81B536;
+}
+
+footer h2,.colums h2 {
+	text-transform: uppercase;
+}
+.first_colum {
+	
+	float: left;
+}
+.first_colum, .second_colum{
+	width: 40%;
+	padding: 100px 100px;
+}
+.second_colum p {
+	margin-bottom: 40px;
+}
+.second_colum a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #81B536;
+	font-size: 16px;
+	border: solid;
+	padding: 20px 10px;
+}
+.second_colum a:hover {
+	background-color: #81B536;
+	color: #fff;
+}
+.colums h2{
+	padding-bottom: 20px;
+}

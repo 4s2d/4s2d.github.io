@@ -1,0 +1,23 @@
+body {
+	background: gray;
+}
+header,footer {
+	/* #FF0000; 0-9A-F
+	rgb(0,0,0); 0-255
+	rgba(0,0,0,0.5); alpha:0-1;
+	*/
+	background: black;
+	color: #fff;
+}
+p.paragraph {
+	background: #00c6ff;
+}
+#link {
+	color: #FF0000;
+}
+p.paragraph a {
+	color: white;
+}
+.paragraph .first,.parapraph .second {
+	
+}

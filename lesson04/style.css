@@ -1,0 +1,28 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #3B3F45;
+	font-family:“Tebuchet MC”, Tebuchet, Arial, sans-serif;
+}
+footer, header {
+	text-align: center;
+}
+header,footer a {
+	background-color: #4A4F56;
+	color: #EB7E7F;
+}
+header p,footer a {
+		font-size: 1.3em;
+}
+footer a {
+	text-decoration: none;
+}
+section {
+	display: inline-block;
+	background-color: #7A7593;
+	margin: 0 auto;
+	max-width: 600px;
+}
