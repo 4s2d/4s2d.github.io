@@ -261,6 +261,12 @@ header>.container p {
 .name::-webkit-input-placeholder,.email::-webkit-input-placeholder,.message::-webkit-input-placeholder {
 	color: #fff;
 }
+.name::-moz-input-placeholder,.email::-moz-input-placeholder,.message::-moz-input-placeholder {
+	color: #fff;
+}
+.name:-moz-input-placeholder,.email:-moz-input-placeholder,.message:-moz-input-placeholder {
+	color: #fff;
+}
 .name,.email {
 	height: 50px;
 }
@@ -311,6 +317,9 @@ footer a:hover {
 .quick-left {
 	float: left;
 	padding-right: 30px;
+}
+.find-us {
+	clear: both;
 }
 footer .find-us li a i{
 	border: 2px solid #8f8e91;
