@@ -1,0 +1,338 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:700);
+@import url(http://allfont.ru/allfont.css?fonts=montserrat-black);
+
+/*=============================================================================*/
+/*=============================================================================*/
+/*=============================================================================*/
+
+*:focus {
+	outline: none;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+/*HEADER */
+/*=============================================================================*/
+
+header {
+	border: 1px solid #e3e8f0;
+}
+.menu-icon,.logo,.top-menu {
+	padding: 0;
+}
+.menu-icon {
+	border-right: 1px solid #e3e8f0;
+	padding: 38px 42px;
+}
+.logo {
+	padding-top: 32px;
+	padding-left: 32px;
+}
+.top-menu a, .cart a{
+	text-decoration: none;
+	color: #343e5b;
+	font-weight: 400;
+}
+.top-menu ul li {
+	padding-top: 39px;
+	padding-right: 30px;
+	font-size: 0.875em;
+}
+.cart {
+	padding-top: 36px;
+}
+.cart a {
+	font-size: 0.688em;
+}
+.cart span {
+	margin-left: 7px;
+	padding: 5px 8px;
+	background: #e3e8f0;
+	border-radius: 50%;
+}
+.cart i {
+	font-size: 2em;
+	margin-right: 8px;
+}
+.signin {
+	padding: 6px 18px;
+	border: 2px solid #e3e8f0;
+	border-radius: 16px;
+	margin-left: 29px;
+}
+
+/*SALES MENU*/
+/*=============================================================================*/
+
+nav {
+	border-right: 1px solid #e3e8f0;
+	border-left: 1px solid #e3e8f0;
+	display: none;
+}
+.sales-menu ul li {
+	padding-right: 30px;
+	padding-top: 24px;
+}
+.sales-menu ul li:last-child {
+	text-align: right;
+}
+.sales-menu ul li a {
+	text-decoration: none;
+	font-size: 0.688em;
+	text-transform: uppercase;
+	color: #b9bed1;
+}
+.sales-menu ul li:hover a{
+	color: #343e5b;
+}
+.search {
+	position: relative;
+	padding: 23px 21px;
+	border-right: 1px solid #e3e8f0;
+	border-left: 1px solid #e3e8f0;
+}
+.search .icon {
+	position: absolute;
+}
+.search_field {
+	font-size: 0.875em;
+	font-weight: 400;
+	line-height: 1.714;
+	border: none;
+	padding-left: 30px;
+}
+
+/*MAIN*/
+/*=============================================================================*/
+
+.main {
+	background: #1c1e23;
+}
+.main h1 {
+	font-family: 'Montserrat Black', arial;
+	padding-top: 103px;
+	color:  #ffffff;
+	font-size: 2.625em;
+	font-weight: 700;
+}
+.main p {
+	padding-top: 34px;
+	padding-bottom: 64px;
+	font-family: 'CrimsonText';
+	color:  #ffffff;
+	font-size: 1em;
+	line-height: 1.5;
+}
+.main a, .gadget a {
+	text-decoration: none;
+	color:  #ffffff;
+	font-size: 0.688em;
+	font-weight: 400;
+	border-radius: 21px;
+	background: #2754eb;
+	padding: 17px 52px; 
+	margin-bottom: 106px;
+}
+.main a:hover {
+	box-shadow: 0px 0px 20px 0px rgba(168, 173, 187, 0.62);
+}
+
+/*SORT-MENU*/
+/*=============================================================================*/
+
+section {
+	background: #e3e8f0;
+}
+label {
+	margin-bottom: 0;
+}
+.sort-menu {
+	background: #fff;
+	border-radius: 5px;
+	margin-top:  50px;
+	color:  #a1a8be;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.sort {
+	padding: 20px 24px;
+	border-right: 1px solid #e3e8f0;
+}
+.sort-by, .ship-to {
+	border: none;
+	color: #343e5b;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-left: 49px;
+}
+.key {
+	padding-left: 31px;
+}
+.input {
+	border-radius: 16px;
+	border: 1px solid #e3e8f0;
+	background:  #f0f2f7;
+	padding-left: 15px;
+	margin-left: 12px;
+	margin-top: 13px;
+	font-size: 13px;
+}
+.keywords {
+	width: 161px;
+	height: 30px;
+}
+
+.prices {
+	padding-left: 29px;
+}
+.price {
+	width: 62px;
+	height: 30px;
+}
+.free {
+	color: #343e5b;
+	text-transform: none;
+	padding-left: 32px;
+	padding-right: 44px;
+}
+.free img {
+	padding-right: 10px;
+}
+.ship {
+	padding: 20px 24px;
+	padding-right: 0;
+	border-left: 1px solid #e3e8f0;
+}
+
+/*=============================================================================*/
+/*=============================================================================*/
+/*=============================================================================*/
+
+.column, .gadget, .pages{
+	margin-top: 30px;
+	background: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.level-1 li a, .sm{
+	color: #343e5b;
+	font-size: 13px; 
+	font-weight: 400;
+	line-height: 42px;
+	text-decoration: none;
+	padding-left: 19px;
+}
+.top-sales ul li {
+	border-bottom: 1px solid #e3e8f0
+}
+.level-1 img{
+	float: right;
+	padding-right: 19px;
+	padding-top: 16px;
+}
+.level-2 {
+	background: #f0f2f7;
+}
+.level-2 li a {
+	color:  #a1a8be;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 42px;
+}
+.down {
+	display: none;
+}
+
+/*=================================================================*/
+
+.column h4 {
+	color: #343e5b;
+	font-size: 11px; 
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px 0 20px 19px;
+	border-bottom: 1px solid #e3e8f0;
+}
+.sm span {
+	color: #b9c0d3;
+	font-size: 11px; 
+	font-weight: 400;
+	line-height: 36px; 
+	padding-right: 20px;
+	float: right;
+}
+
+
+/*=================================================================*/
+
+/*=================================================================*/
+
+.gadget h2{
+	color: #1c1d23;
+	font-size: 16px; 
+	font-weight: 400;
+	line-height: 20px; 
+}
+.gadget span{
+	color: #b9c0d3;
+	font-size: 12px; 
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.gadget p {
+	color: #343e5b;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.col-md-6 .gadget {
+	position: relative;
+}
+.col-md-6 .gadget h2{
+	margin-left: 23px;
+}
+.col-md-6 .gadget span{
+	margin-left: 23px;
+	margin-bottom: 19px;
+}
+
+.col-md-6 .gadget p{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 12px;
+	padding: 3px 8px;
+	font-size: 12px;
+	background: #000;
+	color: #fff;
+	border-radius: 4px;
+}
+.g-price {
+	margin-bottom: 40px;
+}
+
+
+/*====================================================*/
+/*====================================================*/
+/*====================================================*/
+.pages ul {
+	display: inline-block;
+}
+.pages>a {
+	padding: 40px 97px;
+}
+.pages ul {
+	padding-top:  40px
+}
+.pages ul li {
+	
+}
+.pages ul li a {
+	color: #3a405b;
+	font-size: 14px;
+	font-weight: 400;
+}

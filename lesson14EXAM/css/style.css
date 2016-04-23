@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+}
+.container {
+	max-width: 940px;
+}
+header {
+	background: url('../img/headbg.png') no-repeat top left;
+	background-size: cover;
+    color: #010101;
+}
+header .top-menu {
+	margin-top: 60px;
+}
+header .top-menu ul {
+	margin-top: 16px;
+}
+header .top-menu ul li {
+	padding-left: 68px;
+}
+header .top-menu ul li a {
+	color: #010101;
+	font-size: 1.375em;
+	font-weight: 700;
+	line-height: 0.909; 
+}
+header .ipad-block {
+	margin-top: 71px;
+}
+header .ipad-block img {
+	padding: 0px 42px 107px 0px;
+}
+header .ipad-block h1 {
+	padding-top: 61px;
+	padding-bottom: 22px;
+	font-weight: 700;
+	line-height: 0.563; 
+}
+header .ipad-block span {
+	color: #313841;
+	font-size: 1.25em; 
+	font-weight: 400;
+	line-height: 1.2; 
+	text-align: left;
+}
+header .ipad-block p {
+	padding-top: 23px;
+	padding-bottom: 40px;
+	color: #545454;
+	font-size: 1em; 
+	font-weight: 400;
+	line-height: 1.25; 
+}
+header .ipad-block a {
+	color: #010101;
+	font-size: 2.625em; 
+	line-height: 0.476; 
+}
+header .ipad-block a:hover {
+	color: #545454;
+}
+header .ipad-block ul li {
+	margin-right: 38px;
+}
+header .inspire {
+	width: 390px;
+}
+
+
+/*SECTION*/
+
+
+section {
+	margin-top: 118px;
+}
+section h2 {
+	color: #010101;
+	font-size: 2em; 
+	font-weight: 700;
+	line-height: 1; 
+	padding-bottom: 7px;
+}
+section>p {
+	color: #313841;
+	font-size: 1.25em; 
+	font-weight: 400;
+	line-height: 1.2; 
+}
+section .col-md-4 {
+	margin-top: 87px;
+}
+section .container .row .single-block i {
+	color: #010101;
+	font-size: 3.125em; 
+	line-height: 0.64; 
+	float: left;
+}
+section h3 {
+	margin-top: 0;
+	color: #010101;
+	font-size: 1.375em; 
+	font-weight: 400;	
+	line-height: 1.091; 
+	text-align: left;
+}
+section .row h3+p {
+	color: #898989;
+	font-size: 1em; 
+	font-weight: 400;
+	line-height: 1.25; 
+}
+ .icon-block{
+	margin-left:70px;
+}
+
+
+/*FOOTER*/
+
+
+footer {
+	background: url('../img/footerbg.png')no-repeat top left;
+	background-size: cover;
+	margin-top: 164px;
+	padding-top: 96px;
+	padding-bottom: 141px;
+}
+footer .keep-in {
+	border-bottom: 1px solid #959595; 
+	margin-bottom: 64px;
+}
+footer h4 {
+	color: #fcdb00;
+	font-size: 2em; 
+	font-weight: 700;
+	line-height: 1; 
+	padding-bottom: 7px;
+}
+footer h4+p {
+	color: #898989;
+	font-size: 1.25em; 
+	font-weight: 400;
+	line-height: 1.2; 
+}
+footer .email {
+	margin-top: 41px;
+	width: 580px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	color: #898989;
+	font-size: 1em; 
+	font-weight: 400;
+	line-height: 1.25; 
+	padding-left: 24px;
+	margin-right: 21px;
+}
+footer .submit {
+	background-color: #fcdb00;
+	width: 126px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	color: #010101;
+	font-size: 1em; 
+	font-weight: 700;
+	line-height: 1.5; 
+}
+footer form {
+	margin-bottom: 79px;
+}
+footer .keep-in ul {
+	margin-bottom: 69px;
+}
+footer .keep-in ul li {
+	margin-right: 16px;
+	margin-left: 16px;
+}
+footer .keep-in ul li a {
+	color: #fcdb00;
+	font-size: 2.625em;
+	font-weight: 400;
+	line-height: 0.762; 
+}
+footer .keep-in ul li a:hover {
+	color: #FCFC5D;
+}
+footer .links p,footer .links ul li a {
+	color: #ffffff;
+	font-size: 1em; 
+	font-weight: 400;
+	line-height: 1.25; 
+}
+footer .submit:hover {
+	background: #FCFC5D;
+	color: 
+}

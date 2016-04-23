@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+
+body {
+	font-family: 'Raleway';
+
+}
+header {
+	background:url('../img/banner.jpg') center;
+}
+.top-menu ul li a {
+	color:  #c6cacc;
+	font-size: 13px;
+	font-weight: 700;
+}
+.top-menu {
+	border-bottom: 1px solid #fff;
+	padding: 44px 0;
+}
+.top-menu ul li a, header .row a{
+	text-decoration: none;
+}
+.top-menu ul li {
+	padding-left: 60px;
+}
+h1 {
+	font-family: 'OpenSans',sans-serif;
+	color:  #ffffff;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 71px;
+	padding-top: 155px;
+	padding-bottom: 41px;
+}
+header p {
+	color:  #c6cacc;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+	padding-bottom: 95px;
+}
+header a {
+	text-decoration: none;
+}
+header .row a {
+	border-radius: 2px;
+	background: #e84545;
+	padding: 18px 50px;
+	color: #fff;
+}
+header .row a:hover {
+	background: red;
+}
+header .row {
+	padding-bottom: 156px;
+}
+.features {
+	padding-top: 121px;
+}
+.features h2{
+	color:  #2d3033;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 34px;
+	padding-bottom: 25px;
+}
+.features p {
+	color:  #6c7279;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	padding-bottom: 74px;
+}
+
+/*WORKS*/
+.works .no-gutter .col-md-3 .over {
+	position: absolute;
+	opacity: 0;
+	background: #e84545;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.works .no-gutter .col-md-3:hover .over{
+	opacity: 0.9;
+}
+.over {
+	padding-top: 156px;
+	color: #fff;
+	font-size: 14px; 
+}
+.over h6 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.over p {
+	font-weight: 400;
+}
+.no-gutter {
+	margin-right: 0;
+	margin-left: 0;
+}
+.works .no-gutter .col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+}
+.our-team {
+	margin-top: 101px;
+	margin-bottom: 101px;
+}
+.our-team h3{
+	color: #2d3033;
+	font-size: 22px;
+	font-weight: 400;
+	padding-top: 10px;
+}
+.our-team span {
+	color: #e84545;
+	font-size: 13px; 
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.our-team p {
+	color: #6c7279;
+	font-size: 14px; 
+	font-weight: 400;
+	line-height: 21px; 
+	padding-top: 30px;
+}
+.our-team ul li, footer ul li{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #e8ecee;
+	border-radius: 2px;
+	text-align: center;
+	padding-top: 9px;
+}
+.our-team ul li a, footer ul li a{
+	color: #c6cacc;
+}
+.our-team ul li:hover, footer ul li:hover{
+	background: #e84545;
+	border: none;
+}
+.our-team ul li:hover a, footer ul li:hover a{
+	color: #fff;
+}
+.test {
+	margin-bottom: 100px;
+}
+.test .no-gutter .col-md-6 {
+	padding-left: 0;
+	padding-right: 0;
+	overflow: hidden;
+}
+.test .row {
+	background:  #53354a;
+	color: #fff;
+}
+.purple-block p{
+	font-family: 'Cardo';
+	font-size: 36px; 
+	font-style: italic;
+	line-height: 42px; 
+	padding-top: 114px;
+	padding-left: 85px;
+	padding-right: 365px;
+	padding-bottom: 30px;
+}
+.purple-block span {
+	padding-left: 85px;
+	padding-bottom: 183px;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 21px; 
+	text-transform: uppercase;
+}
+.download {
+	margin-bottom: 118px;
+}
+.download h4 {
+	color: #2d3033;
+	font-size: 28px; 
+	font-weight: 300;
+	line-height: 21px; 
+}
+.download p {
+	color: #2d3033;
+	font-size: 13px; 
+	font-weight: 700;
+	line-height: 21px; 
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 40px;
+}
+.download a {
+	padding: 18px 83px;
+	background: #e84545;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 3px;
+}
+.download a:hover {
+	background: red;
+}
+footer {
+	background: #3a3e64;
+}
+footer>p {
+	background: #313454;
+	color: #c6cacc;
+	padding: 29px 0;
+}
+footer h5 {
+	padding-top: 71px;
+	color: #ffffff;
+	font-size: 14px; 
+	font-weight: 700;
+}
+footer .container .row p {
+	padding-bottom: 88px;
+	color: #c6cacc;
+	font-size: 14px; 
+	font-weight: 400;
+	line-height: 22.5px; 
+}
+footer p i {
+	color: #e84545;
+}
+footer p a {
+	text-decoration: none;
+	color: #c6cacc;
+}
+footer p a:hover {
+	color: #e84545;
+}
