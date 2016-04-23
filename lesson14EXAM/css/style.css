@@ -93,6 +93,7 @@ section .col-md-4 {
 	margin-top: 87px;
 }
 section .container .row .single-block i {
+	padding-top: 10px;
 	color: #010101;
 	font-size: 3.125em; 
 	line-height: 0.64; 
