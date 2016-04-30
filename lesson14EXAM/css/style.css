@@ -25,19 +25,17 @@ header .top-menu ul li a {
 	color: #010101;
 	font-size: 1.375em;
 	font-weight: 700;
-	line-height: 0.909; 
 }
 header .ipad-block {
 	margin-top: 71px;
 }
 header .ipad-block img {
-	padding: 0px 42px 107px 0px;
+	padding: 0px 42px 107px 20px;
 }
 header .ipad-block h1 {
 	padding-top: 61px;
 	padding-bottom: 22px;
 	font-weight: 700;
-	line-height: 0.563; 
 }
 header .ipad-block span {
 	color: #313841;
@@ -89,7 +87,7 @@ section>p {
 	font-weight: 400;
 	line-height: 1.2; 
 }
-section .col-md-4 {
+section .single-block {
 	margin-top: 87px;
 }
 section .container .row .single-block i {
@@ -156,7 +154,7 @@ footer .email {
 	font-weight: 400;
 	line-height: 1.25; 
 	padding-left: 24px;
-	margin-right: 21px;
+	margin-right: 1.35%;
 }
 footer .submit {
 	background-color: #fcdb00;
@@ -197,4 +195,102 @@ footer .links p,footer .links ul li a {
 footer .submit:hover {
 	background: #FCFC5D;
 	color: 
+}
+
+@media screen and (max-width: 770px) {
+	header .ipad-block ul li {
+		margin: 0px 7px;
+	}
+	footer {
+		text-align: center;
+	}
+	footer form {
+		margin-bottom: 30px;
+	}
+	footer .submit {
+		margin-top: 20px;
+	}
+	footer .email {
+		margin-right: 3.8%;
+		margin-top: 20px;
+	}
+	footer .col-md-3 {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 600px) {
+	header {
+		text-align: center;
+	}
+	.pull-right {
+		float: none !important;
+	}	
+	header .top-menu ul {
+		margin-top: 40px;
+	}
+	header .top-menu ul li {
+		padding:0px 20px;
+	}
+	header .ipad-block {
+		margin-top: 30px;
+	}
+	header .ipad-block h1 {
+		padding-top: 30px;
+	}
+	header .ipad-block ul {
+		margin-bottom: 40px;
+	}
+	header .ipad-block img {
+		padding: 0;
+	}
+	header .inspire {
+		display: block;
+		width: auto;
+	}
+	.single-block, section h3 {
+		text-align: center;
+	}
+	.icon-block {
+		margin: 0;
+		margin-top: 10px;
+	}
+	section {
+		margin-top: 30px;
+	}
+	section .container .row .single-block i {
+		display: block;
+		float: none;
+		padding:0;
+	}
+	section .single-block {
+		margin-top: 40px;
+	}
+	footer {
+		margin-top: 20px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	footer .keep-in {
+		margin-bottom: 30px;
+	}
+	footer .keep-in ul {
+		margin-bottom: 20px;
+	}
+	
+	footer .email {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 450px) {
+	header .container .top-menu ul li {
+		display: block;
+		padding-bottom: 10px;
+	}
+	.single-block {
+		width: 100%;
+	}
+	footer .keep-in ul li {
+    	margin-right: 6px;
+    	margin-left: 6px;
+	}
 }

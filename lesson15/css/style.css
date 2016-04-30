@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+/*font-family: 'Open Sans', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*font-family: 'Montserrat', sans-serif;
+*/body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+p {
+ 	font-family: 'Open Sans', sans-serif;
+ }
+.navbar-default {
+    border: none;
+    background: none;
+}
+header {
+	background: url('../img/bg.jpg') no-repeat top left;
+	background-size: cover;
+	padding-bottom: 60px;
+}
+header nav {
+	padding-top:  43px;
+}
+header nav ul li {
+	color: #60606e;
+	font-size: 1.125em;
+	font-weight: 700;
+}
+header .were {
+	margin-top: 138px;
+	margin-bottom: 125px;
+}
+header .were span {
+	display: inline-block;
+	color: #60606e;
+	font-size: 1.125em; 
+	font-weight: 700;
+	background: #7beec7;
+	padding: 5px 20px;
+}
+header .were h1 {
+	color: #60606e;
+	font-size: 3em; 
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 10px solid #60606e;
+	padding: 15px 20px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+header .were p {
+	color: #60606e;
+	font-size: 1em; 
+	font-weight: 400;
+	line-height: 1.5; 
+}
+header .history h2 {
+	color: #60606e;
+	font-size: 1.875em; 
+	font-weight: 700;
+}
+header .history p {
+	color: #60606e;
+	font-size: 16px; 
+	font-weight: 400;
+	line-height: 30px; 
+}
+header .history a {
+	color: #ffffff;
+	font-size: 0.875em; 
+	font-weight: 700;
+	line-height: 3.429; 
+	background: #7beec7;
+	padding: 0px 39px;
+	text-transform: uppercase;
+}
+.cyan-box {
+	box-shadow: 
+}
